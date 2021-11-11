@@ -1,0 +1,26 @@
+{
+  "name": "electro-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "dependencies": {
+    "electron": "^15.3.1",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile": "tsc &&cp ./src/index.html build/",
+    "start": "npm run compile && electron",
+    "main": "build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erwin0917/electro-app.git"
+  },
+  "author": "Erwin Heba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erwin0917/electro-app/issues"
+  },
+  "homepage": "https://github.com/Erwin0917/electro-app#readme"
+}
